@@ -1,7 +1,7 @@
 # Organelle_RNA_sequencing_analysis
 
-Bioinformatics pipeline and sequencing data supporting the manuscript:  
-**Hua, Z. (2025).** *Rapid and Cost-Effective Digital Quantification of RNA Editing and Maturation in Organelle Transcripts*. https://doi.org/10.1101/2025.06.23.661184.
+Bioinformatics pipeline and sequencing data supporting the paper:  
+**Hua, Z. (2025).** *Rapid and Cost-Effective Digital Quantification of RNA Editing and Maturation in Organelle Transcripts by Oxford Nanopore Target-Indexed-PCR (TIP) Sequencing*. **Plant Direct**, 9: e70111. https://doi.org/10.1002/pld3.70111.
 
 This repository includes all raw sequence data and custom scripts used to analyze Oxford Nanopore long-read sequencing of RNA editing and intron retention in chloroplast transcripts.
 
