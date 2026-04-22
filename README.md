@@ -3,7 +3,7 @@
 Bioinformatics pipeline and sequencing data supporting the study:  
 **Hua, Z.*, et al. (2026).** *F-box protein controls multiple organellar RNA editing factor-2 to coordinate seed germination and plastid signaling*.
 
-This repository contains raw sequencing data and custom scripts used for the analysis of Oxford Nanopore Target-Indexed PCR (TIP) sequencing to quantify RNA editing and intron retention in chloroplast transcripts.
+This repository contains raw sequencing data and custom scripts used for the analysis of RNA editing and intron retention in chloroplast transcripts using Oxford Nanopore Target-Indexed PCR (TIP) sequencing.
 
 In this study, increased RNA editing errors were observed in MORF2-interacting F-box overexpression (MIF-OE) lines following dexamethasone-induced MIF expression compared to wild-type (WT) controls, whereas no significant differences in intron retention were detected across genotypes.
 
@@ -23,11 +23,10 @@ In this study, increased RNA editing errors were observed in MORF2-interacting F
 - `local_align_inserts_vs_intron_blast.pl` — Local alignment of unspliced reads using `BLASTN`
 
 ### Example Outputs  
-- `Example_Outputs/` — Representative outputs from key steps:
-  - `minimap_alignments/` — BAM/BAI files from alignment  
-  - `insert_fastas/` and `merged_fastas/` — FASTA files of unspliced reads  
-  - `ndhB_groupII_insertion_count_chr1-3.tsv` — Summary of intron retention frequencies  
-  - `ndhB_insert_vs_intron_blast.tsv` — BLASTN alignment summary of unspliced reads  
+- `minimap_alignments/` — BAM/BAI files from alignment  
+- `insert_fastas/` and `merged_fastas/` — FASTA files of unspliced reads  
+- `ndhB_groupII_insertion_count_chr1-3.tsv` — Summary of intron retention frequencies  
+- `ndhB_insert_vs_intron_blast.tsv` — BLASTN alignment summary of unspliced reads  
 
 ### Documentation  
 - `USAGE_GUIDE.md` — Step-by-step instructions for reproducing the analysis pipeline  
@@ -51,7 +50,7 @@ In this study, increased RNA editing errors were observed in MORF2-interacting F
 
 ## 📊 Data Availability
 
-Raw Oxford Nanopore TIP-sequencing data are available in the NCBI Sequence Read Archive (SRA) under BioProject accession **PRJNA1456570**.
+Raw Oxford Nanopore TIP-sequencing data are also available in the NCBI Sequence Read Archive (SRA) under BioProject accession **PRJNA1456570**.
 
 ---
 
