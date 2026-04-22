@@ -88,11 +88,11 @@ for bam in bam_files:
                     total_reads = len(lines)
                     cigar_lines = [(line.split('\t')[0], line.split('\t')[5]) for line in lines if len(line.split('\t')) > 5]
 
-                    insert_ids = []
+                    insert_ids = set()
                     for read_id, cigar in cigar_lines:
                         insertions = list(map(int, re.findall(r'(\d+)I', cigar)))
                         if any(650 <= i <= 700 for i in insertions):
-                            insert_ids.append(read_id)
+                            insert_ids.add(read_id)
 
                     count = len(insert_ids)
                     freq = round(count / total_reads, 5) if total_reads > 0 else 0.0
