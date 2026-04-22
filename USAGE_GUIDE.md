@@ -17,6 +17,7 @@ cd Organelle_RNA_sequencing_analysis
 ```bash
 mv *.* ./raw_FASTQs
 cd raw_FASTQs
+gunzip *.gz
 perl filter_barcoded_fastq_seqs.pl
 ```
 
