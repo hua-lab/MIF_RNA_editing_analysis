@@ -3,7 +3,7 @@
 Bioinformatics pipeline and sequencing data supporting the study:  
 **Hua, Z.*, et al. (2026).** *F-box protein controls multiple organellar RNA editing factor-2 to coordinate seed germination and plastid signaling*.
 
-This repository contains a raw sequencing data example and custom scripts used for the analysis of Oxford Nanopore Target-Indexed PCR (TIP) sequencing to quantify RNA editing and intron retention in chloroplast transcripts. The complete raw FASTQ files are available in the NCBI Sequence Read Archive (SRA) under BioProject accession PRJNA1456570.
+This repository contains raw sequencing data and custom scripts used for the analysis of Oxford Nanopore Target-Indexed PCR (TIP) sequencing to quantify RNA editing and intron retention in chloroplast transcripts.
 
 In this study, increased RNA editing errors were observed in MORF2-interacting F-box overexpression (MIF-OE) lines following dexamethasone-induced MIF expression compared to wild-type (WT) controls, whereas no significant differences in intron retention were detected across genotypes.
 
