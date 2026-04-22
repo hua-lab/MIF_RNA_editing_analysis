@@ -41,8 +41,8 @@ my @input_fastqs = qw(
     HJFNBQ_3_MIFOE20.25.fastq
     HJFNBQ_2_MIFOE20.125.fastq
     HJFNBQ_1_WT0.125.fastq
-    BC6ZLB_2_MIFOE1.fastq
-    BC6ZLB_1_WT.fastq
+    BC6ZLB_2_MIFOE110.fastq
+    BC6ZLB_1_WT10.fastq
 );
 
 foreach my $input_fastq (@input_fastqs) {
