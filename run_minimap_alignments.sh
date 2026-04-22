@@ -21,8 +21,10 @@
 #   - samtools
 #
 # Citation:
-#   Hua, Z. (2025). Rapid and Cost‐Effective Digital Quantification of RNA Editing and Maturation in Organelle Transcripts by Oxford Nanopore Target‐Indexed‐PCR (TIP) Sequencing. *Plant Direct*, 9 (10), e70111.
-#   Hua, Z. et al. (2026). F-box protein controls multiple organellar RNA editing factor-2 to coordinate seed germination and plastid signaling. *Nature Communications*, [in review].
+#   Hua, Z. (2025). Rapid and Cost‐Effective Digital Quantification of RNA Editing and Maturation in Organelle Transcripts 
+#                   by Oxford Nanopore Target‐Indexed‐PCR (TIP) Sequencing. *Plant Direct*, 9 (10), e70111.
+#   Hua, Z. et al. (2026). F-box protein controls multiple organellar RNA editing factor-2 to coordinate seed germination and plastid signaling. 
+#                   *Nature Communications*, [in review].
 #
 # Contact:
 #   Dr. Zhihua Hua – hua@ohio.edu | ORCID: 0000-0003-1177-1612
