@@ -36,10 +36,11 @@ my %barcodes = map { $_ => 1 } qw(ATGCTAGC CGTACGTA TACGATCG);
 
 # List of raw FASTQ files
 my @input_fastqs = qw(
-    45CNXP_1_WT.fastq
-    45CNXP_2_Krab.fastq
-    45CNXP_3_12-1.fastq
-    45CNXP_4_10-1.fastq
+    HJFNBQ_3_MIFOE20.25.fastq
+    HJFNBQ_2_MIFOE20.125.fastq
+    HJFNBQ_1_WT0.125.fastq
+    BC6ZLB_2_MIFOE1.fastq
+    BC6ZLB_1_WT.fastq
 );
 
 foreach my $input_fastq (@input_fastqs) {
