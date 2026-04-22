@@ -2,8 +2,7 @@
 
 This guide walks you through reproducing the full organelle RNA sequencing analysis pipeline described in:
 
-**Hua, Z. (2025).** _Rapid and Cost-Effective Digital Quantification of RNA Editing and Maturation in Organelle Transcripts_.  
-All scripts and data files referenced are provided in this repository.
+**Hua, Z. et al. (2026)** _F-box protein controls multiple organellar RNA editing factor-2 to coordinate seed germination and plastid signaling.
 
 ---
 
@@ -11,6 +10,7 @@ All scripts and data files referenced are provided in this repository.
 ```bash
 git clone https://github.com/hua-lab/Organelle_RNA_sequencing_analysis.git
 cd Organelle_RNA_sequencing_analysis
+
 ```
 
 ## ⚙️ 2. Run Method S1 – Demultiplex and Strand-Correct FASTQ Files
