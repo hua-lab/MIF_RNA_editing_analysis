@@ -1,7 +1,7 @@
-# Organelle_RNA_sequencing_analysis
+# MIF_RNA_editing_analysis
 
 Bioinformatics pipeline and sequencing data supporting the paper:  
-**Hua, Z. (2025).** *Rapid and Cost-Effective Digital Quantification of RNA Editing and Maturation in Organelle Transcripts by Oxford Nanopore Target-Indexed-PCR (TIP) Sequencing*. **Plant Direct**, 9: e70111. https://doi.org/10.1002/pld3.70111.
+**Hua, Z.*, et al. (2026).** *F-box control of multiple organellar RNA editing factor 2 coordinates seed germination and plastid signaling*. .
 
 This repository includes all raw sequence data and custom scripts used to analyze Oxford Nanopore long-read sequencing of RNA editing and intron retention in chloroplast transcripts.
 
@@ -11,16 +11,16 @@ The `Supplementary Files` submitted with the manuscript are described below to m
 
 ## 📁 Contents
 
-### Appendices  
-- `Appendix S1.zip`: `raw_FASTQs/` — Raw FASTQ files from nanopore barcoded amplicon sequencing  
-- `Appendix S2.txt`: `pseudo_genome_ndhBD.fa` — Synthetic pseudo-genome reference for alignment  
-- `Appendix S3.txt`: `ndhB_intron.fa` — Reference sequence of the Group II intron in `ndhB`
+### Dataset & Sequences  
+- `raw_FASTQs/` — Raw FASTQ files from nanopore barcoded amplicon sequencing  
+- `pseudo_genome_ndhBD.fa` — Synthetic pseudo-genome reference for alignment  
+- `ndhB_intron.fa` — Reference sequence of the Group II intron in `ndhB`
 
-### Methods  
-- `Method S1.txt`: `filter_barcoded_fastq_seqs.pl` — Perl script for barcode filtering and strand correction  
-- `Method S2.txt`: `run_minimap_alignments.sh` — Bash script for `minimap2` alignment and `samtools` processing  
-- `Method S3.txt`: `count_groupII_inserts_and_extract.py` — Python script for detecting unspliced reads and exporting FASTA files  
-- `Method S4.txt`: `local_align_inserts_vs_intron_blast.pl` — Perl script for `BLASTN`-based local alignment of unspliced reads
+### Scripts  
+- `filter_barcoded_fastq_seqs.pl` — Perl script for barcode filtering and strand correction  
+- `run_minimap_alignments.sh` — Bash script for `minimap2` alignment and `samtools` processing  
+- `count_groupII_inserts_and_extract.py` — Python script for detecting unspliced reads and exporting FASTA files  
+- `local_align_inserts_vs_intron_blast.pl` — Perl script for `BLASTN`-based local alignment of unspliced reads
 
 ### Outputs
 - `Example_Outputs/` — Folder containing output files from key steps, including:  
@@ -28,10 +28,7 @@ The `Supplementary Files` submitted with the manuscript are described below to m
                         -   FASTA files in `insert_fastas/` and `merged_fastas/` Produced by `count_groupII_inserts_and_extract.py`  
                         -  `ndhB_groupII_insertion_count_chr1-3.tsv`: Summary of intron-retention frequencies (from `count_groupII_inserts_and_extract.py`)  
                         -  `ndhB_insert_vs_intron_blast.tsv`: BLASTN alignment summary of unspliced reads (from `local_align_inserts_vs_intron_blast.pl`)  
-                         
-                      
-
-
+ 
 ### Guide  
 - `USAGE_GUIDE.md` — Step-by-step instructions for reproducing the full organelle RNA sequencing analysis pipeline, see [USAGE_GUIDE.md](USAGE_GUIDE.md).
 
