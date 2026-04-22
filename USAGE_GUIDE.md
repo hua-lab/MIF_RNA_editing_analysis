@@ -8,7 +8,7 @@ This guide walks you through reproducing the full organelle RNA sequencing analy
 
 ## 📁 1. Clone the Repository
 ```bash
-git clone https://github.com/hua-lab/Organelle_RNA_sequencing_analysis.git
+git clone https://github.com/hua-lab/MIF_RNA_editing_analysis.git
 cd Organelle_RNA_sequencing_analysis
 
 ```
