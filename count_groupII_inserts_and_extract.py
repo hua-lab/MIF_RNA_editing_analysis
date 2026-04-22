@@ -56,7 +56,7 @@ barcode_chr_map = {
     "CGTACGTA": ["chr2"],
     "TACGATCG": ["chr3"]
 }
-expected_genotypes = ["WT", "Krab", "10-1", "12-1"]
+expected_genotypes = ["WT10", "MIFOE110", "WT0.125", "MIFOE20.125", "MIFOE20.25"]
 fastq_dir = "../"
 
 # --- Setup output directories ---
