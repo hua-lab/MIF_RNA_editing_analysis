@@ -1,7 +1,7 @@
 # MIF_RNA_editing_analysis
 
 Bioinformatics pipeline and sequencing data supporting the study:  
-**Hua, Z.*, et al. (2026).** *F-box protein controls multiple organellar RNA editing factor-2 to coordinate seed germination and plastid signaling*.
+**Hua, Z.*, et al. (2026).** *F-box protein-mediated turnover of multiple organellar RNA-editing factor 2 coordinates seed germination and plastid signaling*.
 
 This repository contains raw sequencing data and custom scripts used for the analysis of RNA editing and intron retention in chloroplast transcripts using Oxford Nanopore Target-Indexed PCR (TIP) sequencing.
 
