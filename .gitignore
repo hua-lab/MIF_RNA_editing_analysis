@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.pyc
+venv/
+*.mmi
+*.bam
+*.bai
+*.blastdb
+*.nhr
+*.nin
+*.nsq
+temp_blast.tsv
