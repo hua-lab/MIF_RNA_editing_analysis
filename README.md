@@ -14,7 +14,7 @@ In this study, increased RNA editing errors were observed in MORF2-interacting F
 ### Dataset & Reference Sequences  
 - `raw_FASTQs/` — Raw FASTQ files from nanopore barcoded amplicon sequencing  
 - `pseudo_genome_ndhBD.fa` — Synthetic pseudo-genome reference used for alignment  
-- `ndhB_intron.fa` — Reference sequence of the Group II intron in *ndhB*
+- `ndhB_intron.fasta` — Reference sequence of the Group II intron in *ndhB*
 
 ### Scripts  
 - `filter_barcoded_fastq_seqs.pl` — Barcode filtering and strand correction  
