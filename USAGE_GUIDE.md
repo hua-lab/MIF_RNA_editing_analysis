@@ -17,7 +17,7 @@ cd MIF_RNA_editing_analysis
 ```bash
 mv *.* ./raw_FASTQs
 cd raw_FASTQs
-gunzip *.gz
+gunzip -k *.fastq.gz
 perl filter_barcoded_fastq_seqs.pl
 ```
 
