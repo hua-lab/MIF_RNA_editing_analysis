@@ -2,7 +2,7 @@
 
 This guide walks you through reproducing the full organelle RNA sequencing analysis pipeline described in:
 
-**Hua, Z. et al. (2026)** _F-box protein controls multiple organellar RNA editing factor-2 to coordinate seed germination and plastid signaling.
+**Hua, Z. et al. (2026)** _F-box protein-mediated turnover of multiple organellar RNA-editing factor 2 coordinates seed germination and plastid signaling.
 
 ---
 
