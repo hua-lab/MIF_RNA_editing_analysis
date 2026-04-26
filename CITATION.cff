@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "MIF RNA editing analysis workflow"
+message: "If you use this workflow, please cite the archived Zenodo release."
+type: software
+authors:
+  - family-names: Hua
+    given-names: Zhihua
+    affiliation: "Ohio University"
+    orcid: "https://orcid.org/0000-0003-1177-1612"
+repository-code: "https://github.com/hua-lab/MIF_RNA_editing_analysis"
+abstract: "Custom scripts and analysis workflows for RNA-editing and intron-retention analysis of Arabidopsis chloroplast ndhB and ndhD transcripts using Oxford Nanopore Target-Indexed PCR sequencing."
+keywords:
+  - Arabidopsis
+  - RNA editing
+  - MORF2
+  - MIF
+  - chloroplast
+  - nanopore sequencing
+  - Target-Indexed PCR
+license: GPL-3.0-only
+version: "1.0.0"
+date-released: "2026-04-26"
