@@ -30,8 +30,7 @@
 # Citation:
 #   Hua, Z. (2025). Rapid and Cost‐Effective Digital Quantification of RNA Editing and Maturation in Organelle Transcripts 
 #                   by Oxford Nanopore Target‐Indexed‐PCR (TIP) Sequencing. *Plant Direct*, 9 (10), e70111.
-#   Hua, Z. et al. (2026). F-box protein-mediated turnover of multiple organellar RNA-editing factor 2 coordinates seed germination and plastid signaling. 
-#                   *Nature Communications*, [in review].
+#   Hua, Z. et al. (2026). SCF-mediated cytoplasmic turnover of MORF2 regulates plastid signaling and seed germination*, [in review].
 
 # Contact:
 #   Dr. Zhihua Hua – hua@ohio.edu | ORCID: 0000-0003-1177-1612
